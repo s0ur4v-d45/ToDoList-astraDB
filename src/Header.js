@@ -14,7 +14,7 @@ const Header = ({ addTodo }) => {
       <TodoTextInput
         newTodo
         onSave={handleSave}
-        placeholder="What needs to be done?"
+        placeholder="Tasks to do in this week"
       />
     </header>
   );
